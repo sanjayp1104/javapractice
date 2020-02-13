@@ -13,11 +13,11 @@ public class TestClass {
 		EmployeeDao employeeDao =  context.getBean(EmployeeDao.class);
 		
 		System.out.println("Creating Employees");
-		Employee emp1 =  new Employee(2, "AAAA", "BBB", 25);
+		Employee emp1 =  new Employee(8, "AAAA", "BBB", 25);
 		
 		if ( employeeDao.createEmployee(emp1)) System.out.println("Employee Created successfuly with id "+emp1.getEmpid());
 		
-		Employee emp2 =  new Employee(3, "CCCC", "DDD", 45);
+		Employee emp2 =  new Employee(9, "CCCC", "DDD", 45);
 		
 		if ( employeeDao.createEmployee(emp2)) System.out.println("Employee Created successfuly with id "+emp2.getEmpid());
 		
