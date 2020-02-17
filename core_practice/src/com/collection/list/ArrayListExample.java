@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ArrayListExample {
 	public static void main(String[] args) {
-		List<String> arr = new ArrayList<String>();
+		List<String> arr = new ArrayList<String>();//Comment
 		arr.add("AAA");
 		arr.add("bbb");
 		arr.add("ccc");
